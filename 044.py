@@ -1,8 +1,8 @@
 '''
 Ejercicio 44
 Genera un numero aleatorio entre 1 y 10.
-luego, pide al usuario adivinar el
-numero hasta que lo haga correctamente
+luego, pide al usuario adivinar
+el numero hasta que lo haga correctamente
 '''
 import random
 numero_secreto = random.randint(1, 10)
