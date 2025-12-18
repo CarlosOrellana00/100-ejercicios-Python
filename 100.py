@@ -21,7 +21,7 @@ class Visitas(Conexion):
     conexion = self.conectar()
     sql = "SELECT id, ap_paterno FROM t_visitas"
     cursor = conexion.cursor()
-    cursor.exceute(sql)
+    cursor.execute(sql)
     registros = cursor.fetchall()
     cursor.close()
     conexion.close()
